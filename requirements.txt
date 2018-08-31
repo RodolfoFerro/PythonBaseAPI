@@ -1,0 +1,6 @@
+scikit-learn
+unidecode
+requests
+graphviz
+numpy
+flask
