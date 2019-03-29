@@ -44,10 +44,10 @@ def get_prediction(url, filename):
 
     # Set metadata:
     headers = {'Content-type': 'application/json'}
-    input_values = {'sepal_length': 5.1,
-                    'sepal_width': 3.5,
-                    'petal_length': 1.4,
-                    'petal_width': 0.2}
+    input_values = {'sepal_length': 6.4,
+                    'sepal_width': 3.2,
+                    'petal_length': 4.5,
+                    'petal_width': 1.5}
 
     # Get response:
     response = requests.post(url, json=input_values, headers=headers)
