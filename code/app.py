@@ -25,7 +25,7 @@ app = Flask(__name__)
 
 # Global:
 version = 'v0.0'
-classifier = iris_classifier()
+# Load iris classifier
 species = {'0': 'I. setosa', '1': 'I. versicolor', '2': 'I. virginica'}
 
 
