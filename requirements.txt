@@ -1,6 +1,9 @@
 scikit-learn
+matplotlib
 unidecode
 requests
 graphviz
+seaborn
+scipy
 numpy
 flask
