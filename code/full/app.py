@@ -5,8 +5,8 @@
 #
 # ABOUT COPYING OR USING PARTIAL INFORMATION:
 # This script was originally created by Rodolfo Ferro, for
-# his workshop in LinceHack 2018 at Tecnológico Nacional de
-# México en Celaya. Any explicit usage of this script or its
+# his workshop in HackSureste 2019 at Universidad Modelo
+# in Mérida. Any explicit usage of this script or its
 # contents is granted according to the license provided and
 # its conditions.
 # ===============================================================

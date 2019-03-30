@@ -5,8 +5,8 @@
 #
 # ABOUT COPYING OR USING PARTIAL INFORMATION:
 # This script was originally created by Rodolfo Ferro, for
-# his workshop in LinceHack 2018 at Tecnológico Nacional de
-# México en Celaya. Any explicit usage of this script or its
+# his workshop in HackSureste 2019 at Universidad Modelo
+# in Mérida. Any explicit usage of this script or its
 # contents is granted according to the license provided and
 # its conditions.
 # ===============================================================
@@ -51,10 +51,10 @@ def predict():
     req_data = request.get_json()
 
     # Parse data from JSON:
-    sl = req_data['sepal_length']
-    sw = req_data['sepal_width']
-    pl = req_data['petal_length']
-    pw = req_data['petal_width']
+    # sl <- 'sepal_length' from req_data
+    # sw <- 'sepal_width' from req_data
+    # pl <- 'petal_length' from req_data
+    # pw <- 'petal_width' from req_data
 
     # Predict with model:
     input_data = np.array([[sl, sw, pl, pw]])
