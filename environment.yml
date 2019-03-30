@@ -1,0 +1,15 @@
+name: BaseAPI
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python>=3.6
+  - unidecode
+  - requests
+  - seaborn
+  - flask
+  - scipy
+  - numpy
+  - graphviz
+  - matplotlib
+  - scikit-learn
